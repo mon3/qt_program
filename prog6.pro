@@ -23,6 +23,4 @@ CONFIG += Qwt
 
 INCLUDEPATH += /usr/local/qwt-5.2.4-svn/include
 LIBS += -L/usr/local/qwt-5.2.4-svn/lib -lqwt
-INCLUDEPATH += /home/monika03/Downloads/libpng-1.6.26/.libs/
-LIBS += -L/home/monika03/Downloads/libpng-1.6.26/.libs/libpng16.so.16
 
