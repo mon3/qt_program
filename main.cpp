@@ -1,12 +1,14 @@
 #include "mainwindow.h"
-#include <QtWidgets/QApplication>
-#include <QtWidgets/QWidget>
-#include <qwt.h>
+#include <QApplication>
+#include <QWidget>
+#include <QTextCodec>
+#include <qwt/qwt.h>
 #include <qwt/qwt_plot.h>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+    QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
     // Tworzenie okna programu
     QWidget okno;
     okno.setWindowTitle ("Dopasowanie MNK"); // ustawia tytuł okna
